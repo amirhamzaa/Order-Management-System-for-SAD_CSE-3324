@@ -1,4 +1,6 @@
 # Shanjer Crafts - Order Management System (OMS)
+### Course: System Analysis and Design (CSE-3324)
+#### Repository: Order-Management-System-for-SAD_CSE-3324
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.x%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![Database](https://img.shields.io/badge/MySQL-MariaDB-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -429,10 +431,9 @@ Follow these steps to upload this complete project to GitHub:
 ### Step 1: Create a New Repository on GitHub
 1. Sign in to your [GitHub Account](https://github.com/).
 2. Click the **`+`** icon in the top right &rarr; **New repository**.
-3. Name it: `order-management-system` (or `oms`).
+3. Name it: `Order-Management-System-for-SAD_CSE-3324`.
 4. Keep it **Public** (or **Private**).
-5. **DO NOT** initialize with README or .gitignore (we already have them created).
-6. Click **Create repository**.
+5. Click **Create repository**.
 
 ### Step 2: Push Your Local Code via Terminal / PowerShell
 Open **PowerShell** or **Git Bash** in `c:\xampp\htdocs\oms`:
@@ -450,8 +451,8 @@ git commit -m "Initial commit: Complete Shanjer Crafts Order Management System w
 # 4. Set default branch to main
 git branch -M main
 
-# 5. Link to your GitHub remote repository (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/order-management-system.git
+# 5. Link to your GitHub remote repository
+git remote add origin https://github.com/amirhamzaa/Order-Management-System-for-SAD_CSE-3324.git
 
 # 6. Push project to GitHub
 git push -u origin main
@@ -470,12 +471,11 @@ git push -u origin main
 
 ## 11. Authors & Acknowledgments
 
+- **Project**: Order-Management-System-for-SAD_CSE-3324
 - **Developed for**: Shanjer Crafts & Custom Woodworking
 - **Project Type**: Enterprise Order Management & Production Tracking System
-- **Academic Course**: System Analysis & Design (SAD) / Web Application Development
+- **Academic Course**: System Analysis & Design (SAD - CSE-3324)
 
 ---
 
 *Made with ❤️ for efficient craftsmanship and manufacturing operations.*
-#   O r d e r - M a n a g e m e n t - S y s t e m - f o r - S A D _ C S E - 3 3 2 4  
- 
