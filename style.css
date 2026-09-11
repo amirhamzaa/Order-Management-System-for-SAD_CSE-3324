@@ -1,0 +1,458 @@
+/* =========================
+   BASIC RESET
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+    width: 96%;
+    max-width: 1350px;
+    margin: 25px auto;
+}
+
+
+/* =========================
+   BOX
+========================= */
+
+.box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.box h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #444;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background: #eee;
+}
+
+
+/* =========================
+   MESSAGE
+========================= */
+
+.message {
+    background: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   NOTE
+========================= */
+
+.note {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   DESIGN IMAGE
+========================= */
+
+.design-box {
+    width: 300px;
+    height: 200px;
+
+    border: 1px solid #ddd;
+
+    padding: 5px;
+
+    margin-top: 10px;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fafafa;
+}
+
+.design-box img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+.design-preview {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+}
+
+
+/* =========================
+   HOME PAGE
+========================= */
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.menu a {
+    background: #222;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #444;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+/* =========================
+   TABLE WRAPPER & SCROLL
+========================= */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll-container {
+    max-height: 580px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.table-scroll-container table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: auto;
+}
+
+.table-scroll-container th,
+.table-scroll-container td {
+    padding: 8px 6px;
+    font-size: 13px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.table-scroll-container th {
+    position: sticky;
+    top: 0;
+    background: #eeeeee;
+    z-index: 10;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #ccc;
+}
+
+.table-scroll-container .action-form {
+    display: block;
+    margin: 2px 0;
+}
+
+.table-scroll-container .action-form button,
+.table-scroll-container button {
+    width: 100%;
+    min-width: 95px;
+    max-width: 115px;
+    padding: 5px 6px;
+    font-size: 11px;
+    margin: 2px 0;
+    white-space: nowrap;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Modern clean scrollbar */
+.table-scroll-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.table-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* =========================
+   MODAL (EDIT MATERIAL)
+========================= */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 22px 25px;
+    border-radius: 6px;
+    width: 90%;
+    max-width: 440px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #222;
+}
+
+.modal-close {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #888;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 1;
+}
+
+.modal-close:hover {
+    color: #000;
+}
+
+.btn-edit {
+    background: #2980b9 !important;
+    color: #fff !important;
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+    border: none !important;
+    cursor: pointer !important;
+    margin: 2px !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+}
+
+.btn-edit:hover {
+    background: #1c5980 !important;
+}
+
+.btn-delete {
+    background: #c0392b !important;
+    color: #fff !important;
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+    border: none !important;
+    cursor: pointer !important;
+    margin: 2px !important;
+    display: inline-block !important;
+}
+
+.btn-delete:hover {
+    background: #962d22 !important;
+}
+
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 95%;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .design-box {
+        width: 300px;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu a {
+        width: 200px;
+        text-align: center;
+    }
+
+}
