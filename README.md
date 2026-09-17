@@ -424,43 +424,7 @@ oms/
 
 ---
 
-## 9. How to Upload to GitHub
-
-Follow these steps to upload this complete project to GitHub:
-
-### Step 1: Create a New Repository on GitHub
-1. Sign in to your [GitHub Account](https://github.com/).
-2. Click the **`+`** icon in the top right &rarr; **New repository**.
-3. Name it: `Order-Management-System-for-SAD_CSE-3324`.
-4. Keep it **Public** (or **Private**).
-5. Click **Create repository**.
-
-### Step 2: Push Your Local Code via Terminal / PowerShell
-Open **PowerShell** or **Git Bash** in `c:\xampp\htdocs\oms`:
-
-```bash
-# 1. Initialize git in the project root
-git init
-
-# 2. Add all project files to staging
-git add .
-
-# 3. Create your initial commit
-git commit -m "Initial commit: Complete Shanjer Crafts Order Management System with SAD documentation"
-
-# 4. Set default branch to main
-git branch -M main
-
-# 5. Link to your GitHub remote repository
-git remote add origin https://github.com/amirhamzaa/Order-Management-System-for-SAD_CSE-3324.git
-
-# 6. Push project to GitHub
-git push -u origin main
-```
-
----
-
-## 10. Security & Scalability Considerations
+## 9. Security & Scalability Considerations
 
 1. **SQL Injection Protection**: All dynamic user-submitted inputs are sanitized through PHP's parameterized prepared statements (`$conn->prepare()`, `bind_param()`, and `execute()`).
 2. **Cross-Site Scripting (XSS) Prevention**: All dynamic HTML outputs are passed through `htmlspecialchars()` to prevent script injection.
@@ -469,7 +433,7 @@ git push -u origin main
 
 ---
 
-## 11. Authors & Acknowledgments
+## 10. Authors & Acknowledgments
 
 - **Project**: Order-Management-System-for-SAD_CSE-3324
 - **Developed for**: Shanjer Crafts & Custom Woodworking
