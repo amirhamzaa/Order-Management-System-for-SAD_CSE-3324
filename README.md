@@ -36,9 +36,8 @@
 - [6. Technology Stack](#6-technology-stack)
 - [7. Directory & File Structure](#7-directory--file-structure)
 - [8. Installation & Setup Guide](#8-installation--setup-guide)
-- [9. How to Upload to GitHub](#9-how-to-upload-to-github)
-- [10. Security & Scalability Considerations](#10-security--scalability-considerations)
-- [11. Authors & Acknowledgments](#11-authors--acknowledgments)
+- [9. Security & Scalability Considerations](#10-security--scalability-considerations)
+- [10. Authors & Acknowledgments](#11-authors--acknowledgments)
 
 ---
 
